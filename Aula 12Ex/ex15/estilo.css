@@ -1,0 +1,29 @@
+body {
+    background: rgb(43, 174, 250);
+    font normal 15pt Arial;
+}
+header {
+    color: white;/*COR DA FONTE*/
+    text-align: center;/*CENTRALIZAR*/
+}
+section {
+    background: white; /* FUNDO */
+    border-radius: 10px; /*BORDA ARREDONDADA*/
+    padding: 15px; /*PARA DAR ESPAÇO/AUMENTAR A AREA */
+    width: 500px; /*LARGURA FIXA */
+    margin: auto; /*CENTRALIZAR*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411); /*COLOCAR BORDA P/ PARECER 3D/SOMBRA */
+    
+
+}
+footer {
+    color: white;/*COR DA FONTE*/
+    text-align: center;/*CENTRALIZAR*/
+    font-style: italic;/*ESTILO DA FONTE*/
+
+
+}
+#foto {
+    border-radius: 50% ;
+    align: middle;
+}

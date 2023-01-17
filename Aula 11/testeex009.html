@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Nacionalidade</title>
+<style>
+body {
+    font: normal 13pt Arial;
+    background-color: rgb(0, 0, 0);
+    color: white;   
+}
+h1 {
+    text-align: center;
+    background-color: white;
+    color: black
+}
+</style>
+</head>
+<body>
+    <h1><i><u>Defina sua Nacionalidade</u></i></h1>
+    País de nascimento: <input type = "text" name = "txtna" id = "txtna" placeholder= "Digite o seu país..." pattern= "[A-Za-z] +$"/>
+    <input type="button" value="Verificar" onclick="clicar()">
+    <div id="res">
+
+    </div>
+    <script>
+        function clicar() {
+            var txtn = window.document.querySelector('input#txtna')
+            var res = window.document.querySelector('div#res')
+            var nac = (txtn.value)
+            res.innerHTML = `<p>Seu Pais de Nascença é <strong>${nac}</strong></p>`
+        if ( nac == 'Brasil') {
+            res.innerHTML  += `<p>Você é <strong>Brasileiro</strong></p>`
+            res.style.background = 'green'
+            res.style.color = 'yellow'
+        } else {
+            res.innerHTML += `<p>Você é <strong>Estrangeiro</strong></p>`
+            res.style.background = 'red'
+            res.style.color = 'black'
+        }
+        }
+        </script>
+
+</body>
+</html>

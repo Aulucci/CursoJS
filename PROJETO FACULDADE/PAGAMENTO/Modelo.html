@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGENDAMENTOS</title>
+    <link rel="stylesheet" href="estilo.css"> <!--chamada para o css externo -->
+</head>
+<body>
+    <header>
+        <h1>Agendamento</h1>
+    </header>
+    <section>
+        <div>
+            <p><h2>Meus Agendamentos:</h2></p>
+            <p>Código de agendamento: 
+                <input type="number" placeholder="Ex: id2827589" >
+            <input type="button" value="Pesquisar"></p>
+            <p><h3>Dados do seu agendamento:</h3></p>
+            <p>Data: <input type="date">
+            Horario: <input type="time"></p>
+            
+            <input type="button" id="cancel" value="Cancelar agendamento">
+        </div>
+        <div>
+            <p><h2>Novo Agendamento:</h2></p>
+            <p>Escolha o tipo de tratamento
+                <input type="radio" checked>
+                <label>Corporal</label>
+                <input type="radio">
+                <label>Facial</label>
+            </p>
+            <p>Tratamentos: <select name="opcoes" id="opcoes" > 
+                    <option><b>Massagem Modeladora</b></option>
+                    <option><b>Pelling Corporal</b></option>
+                    <option><b>Laser Fracionado</b></option>  
+            </select>
+                Valor: <input type="text" id="valor" value="120,00R$">
+            </p>
+            <p>Data disponivel: <input type="date">
+            Horário disponivel: <input type="time">
+            </p>
+            <input type="button" id="confirmar" value="Confirmar Agendamento e ir para pagamento">
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; <b>Aulucci's Corp</b></p>
+    </footer>    
+    <script src="script.js"> // chamada para o JS externo/para n ficar todo o codigo em um unico lugar
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="estilo.css"> <!--chamada para o css externo -->
+</head>
+<body>
+    <header>
+        <h1><u>Vamos contar...</u></h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p><u>Ínicio:</u><input type="number" name="inicio" id="txti" placeholder="Digite um número"></p>
+            <p><u>Fim:</u><input type="number" name="fim" id="txtf" placeholder="Digite um número"></p>
+            <p><u>Passo:</u><input type="number" name="passo" id="txtp" placeholder="Digite um número"></p>
+            <p><input type="button" value="Contar" onclick="contar()"></p>
+        </div>
+        <div id="res">
+            Preparando a contagem...
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Auluccinado</p>
+    </footer>    
+    <script src="script.js"> // chamada para o JS externo/para n ficar todo o codigo em um unico lugar
+
+    </script>
+</body>
+</html>

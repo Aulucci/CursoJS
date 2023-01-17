@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="estilo.css"> <!--chamada para o css externo -->
+</head>
+<body>
+    <header>
+        <h1>Verficador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p> Ano de Nascimento: 
+                <input type="number" name="txtano" id="txtano" min="0"> <!--caixa de inserir texto ou numero-->
+            </p>
+            <p>Sexo: 
+                <input type="radio" name="radsex" id="mas" checked > <!--Bolinha de selecionar/ checked para ja aparecer marcado-->
+                <label for="mas">Masculino</label> <!-- radsex acima e abaixo tem que ter nome igual para que selecione um ou outro-->
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminimo</label> <!--nome que fica ao lado da bolinha-->
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()"> <!--VERIFICAR() EVENTO QUE ESTARÁ NOPARA PUXAR O QUE ESTA NO JS-->
+            </p>
+            
+        </div>
+        <div id ="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Auluccinado</p>
+    </footer>    
+    <script src="script.js"> // chamada para o JS externo/para n ficar todo o codigo em um unico lugar
+
+    </script>
+</body>
+</html>

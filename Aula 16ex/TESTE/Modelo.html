@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="estilo.css"> <!--chamada para o css externo -->
+</head>
+<body>
+    <header>
+        <h1><U>ANALISADOR DE NÚMEROS</U></h1>
+    </header>
+    <section>
+        <div id = 'dados'>
+           <P>Número (entre 1 e 100):
+            <input type="number" name="txtn" id="txtn" placeholder="Digíte um número aqui...">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+           </P>
+        </div>
+        <div id = 'res'>
+            <select name="numeros" id="selnum" size="10">
+                <option>Digite um número acima</option>
+            </select>
+            <p><input type="button" value="Analisar" onclick="analisar()"></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Auluccinado</p>
+    </footer>    
+    <script src="script.js"> // chamada para o JS externo/para n ficar todo o codigo em um unico lugar
+
+    </script>
+</body>
+</html>

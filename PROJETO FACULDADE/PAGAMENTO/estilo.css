@@ -1,0 +1,66 @@
+body {
+    background:  rgba(21, 56, 250, 0.541);
+    font normal 15pt Arial;
+}
+header {
+    color: white;/*COR DA FONTE*/
+    text-align: center;/*CENTRALIZAR*/
+    font-weight: bold;
+}
+section {
+    background:  rgb(231, 230, 231); /* FUNDO */
+    border-radius: 10px; /*BORDA ARREDONDADA*/
+    padding: 15px; /*PARA DAR ESPAÇO/AUMENTAR A AREA */
+    width: 600px; /*LARGURA FIXA */
+    margin: auto; /*CENTRALIZAR*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616); /*COLOCAR BORDA P/ PARECER 3D/SOMBRA */
+    font-weight: bold;
+
+}
+h1 {
+    background-color: rgba(106, 188, 255, 0.425);
+    color: rgb(248, 248, 248);
+    border-radius: 10px;
+    width: 600px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.842);
+}
+h2{
+    background-color: rgba(106, 188, 255, 0.425);
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);  
+    text-align: center;
+    margin: auto;
+}
+select#opcoes{
+    width: 170px;
+    background-color: rgba(106, 188, 255, 0.425);
+}
+input#valor{
+    width: 60px;
+    background-color: rgba(106, 188, 255, 0.425);
+    font-weight: bold;
+}
+input#confirmar{
+    background-color: rgba(106, 188, 255, 0.425);
+    font-weight: bold;
+
+}
+input#comp{
+    background-color: rgba(106, 188, 255, 0.425);
+    font-weight: bold;
+}
+input#cancel{
+    background-color: rgba(233, 109, 109, 0.637);
+    font-weight: bold;
+}
+footer {
+    color: white;/*COR DA FONTE*/
+    text-align: center;/*CENTRALIZAR*/
+    font-style: italic;/*ESTILO DA FONTE*/
+
+
+}

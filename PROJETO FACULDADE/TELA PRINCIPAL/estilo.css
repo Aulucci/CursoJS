@@ -1,0 +1,55 @@
+body {
+    background: rgba(21, 56, 250, 0.541);
+    font normal 15pt Arial;
+}
+header {
+    color: white;/*COR DA FONTE*/
+    text-align: center;/*CENTRALIZAR*/
+
+}
+h1 {
+    background-color: rgba(106, 188, 255, 0.425);
+    color: rgb(248, 248, 248);
+    border-radius: 10px;
+    width: 600px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+}
+h2{
+    background-color: rgba(106, 188, 255, 0.425);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548); 
+}
+section {
+    background: rgba(106, 188, 255, 0.425); /* FUNDO */
+    border-radius: 10px; /*BORDA ARREDONDADA*/
+    padding: 15px; /*PARA DAR ESPAÇO/AUMENTAR A AREA */
+    width: 600px; /*LARGURA FIXA */
+    margin: auto; /*CENTRALIZAR*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548); /*COLOCAR BORDA P/ PARECER 3D/SOMBRA */
+
+
+}
+div {
+    text-align: center; /* centralizar a imagem e tal */
+    padding: 10px; 
+}
+img#imagem {
+    border-radius: 5%
+}
+select{
+    width: 170px;
+    background-color: rgba(106, 188, 255, 0.425);
+}
+footer {
+    color: white;/*COR DA FONTE*/
+    text-align: center;/*CENTRALIZAR*/
+    font-style: italic;/*ESTILO DA FONTE*/
+
+
+}

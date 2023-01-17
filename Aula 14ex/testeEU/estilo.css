@@ -1,0 +1,25 @@
+body {
+    background: rgb(34, 7, 7);
+    font normal 15pt Arial;
+}
+header {
+    color: white;/*COR DA FONTE*/
+    text-align: center;/*CENTRALIZAR*/
+}
+section {
+    background: rgb(8, 129, 160); /* FUNDO */
+    border-radius: 10px; /*BORDA ARREDONDADA*/
+    padding: 15px; /*PARA DAR ESPAÇO/AUMENTAR A AREA */
+    width: 500px; /*LARGURA FIXA */
+    margin: auto; /*CENTRALIZAR*/
+    box-shadow: 5px 5px 10px rgb(0, 0, 0); /*COLOCAR BORDA P/ PARECER 3D/SOMBRA */
+
+
+}
+footer {
+    color: white;/*COR DA FONTE*/
+    text-align: center;/*CENTRALIZAR*/
+    font-style: italic;/*ESTILO DA FONTE*/
+
+
+}

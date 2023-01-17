@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO</title>
+    <link rel="stylesheet" href="estilo.css"> <!--chamada para o css externo -->
+</head>
+<body>
+    <header>
+        <h1>Cadastro</h1>
+    </header>
+    <section>
+        <div>
+            <p><h2>Entrar:</h2></p>
+            <p>E-mail/CPF: <input type="text" placeholder="Dígite seu e-mail ou CPF">
+            Senha: <input type="text" placeholder="Dígite sua senha..."> </p>
+            <input type="button" value="Entrar"> 
+            <p><h3>Ou</h3></p>
+        </div>
+        <div>
+            <p><h2>Criar nova conta</h2></p>
+            <p>Nome: <input type="text" placeholder="Ex: Maria"> 
+            Sobrenome:<input type="text" placeholder="Ex: Gomes da Silva">
+            </p>
+            <p>Sexo: 
+                <input type="radio" name="radsex" id="mas" checked > <!--Bolinha de selecionar/ checked para ja aparecer marcado-->
+                <label for="mas">Masculino</label> <!-- radsex acima e abaixo tem que ter nome igual para que selecione um ou outro-->
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminimo</label> <!--nome que fica ao lado da bolinha-->
+            </p>
+            <p>E-mail: <input type="text" placeholder="Ex: mariagomess@gmail.com">
+            CPF: <input type="text" placeholder="Dígite seu CPF"></p>
+            <p>Senha: <input type="text" placeholder="Senha de 8 dígitos...">
+            Confirme a senha: <input type="text" placeholder="Digite a senha novamente..."></p>
+            <p>CEP: <input type="text" placeholder="Dígite seu CEP...">
+            Endereço: <input type="text" placeholder="Endereço..."></p>
+            <p>N°<input type="text" placeholder="Dígite o número...">
+            Complemento: <input type="text" placeholder="Se houver..."></p>
+            <p>Bairro: <input type="text" placeholder="Digite seu bairro...">
+            Cidade: <input type="text" placeholder="Digite sua Cidade..."></p>
+            <p>Estado: <input type="text" placeholder="Dígite seu Estado..."></p>
+            <p><input type="button" value="Cadastrar conta."></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Auluccinado</p>
+    </footer>    
+    <script src="script.js"> // chamada para o JS externo/para n ficar todo o codigo em um unico lugar
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    background: rgb(95, 13, 13);
+    font normal 15pt Arial;
+}
+header {
+    color: rgb(108, 109, 109);/*COR DA FONTE*/
+    text-align: center;/*CENTRALIZAR*/
+}
+section {
+    background: rgb(187, 185, 185); /* FUNDO */
+    border-radius: 10px; /*BORDA ARREDONDADA*/
+    padding: 15px; /*PARA DAR ESPAÇO/AUMENTAR A AREA */
+    width: 500px; /*LARGURA FIXA */
+    margin: auto; /*CENTRALIZAR*/
+    box-shadow: 5px 5px 10px rgb(0, 0, 0); /*COLOCAR BORDA P/ PARECER 3D/SOMBRA */
+
+
+}
+select#flista {
+    width: 200px;
+}
+footer {
+    color: rgb(4, 217, 255);/*COR DA FONTE*/
+    text-align: center;/*CENTRALIZAR*/
+    font-style: italic;/*ESTILO DA FONTE*/
+
+
+}
